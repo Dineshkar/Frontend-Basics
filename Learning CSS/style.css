@@ -1,0 +1,39 @@
+body {
+    background-color:green;
+}
+
+h1 {
+    color:rebeccapurple;
+    text-align: center;
+}
+
+
+h2{
+    color:burlywood;
+}
+/*This is for class in div tag */
+
+.square{
+    width:100px;
+    height:100px;
+    background-color: chocolate;
+    margin:auto;
+}
+/*This is for ID in div tag */
+
+#circle {
+    background-color: darkgoldenrod;
+    color:bisque;
+    font-size: 40px;
+}
+
+.container {
+    font-size: larger;
+    background-color: darkblue;
+
+}
+
+h6 {
+    color:rgb(8,345,276);
+}
+

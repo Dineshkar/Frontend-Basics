@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel ="stylesheet" href ="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav>
+        <ul class ="topnav" id="dropdownClick">           
+            <li><a href = "#home">Home</a></li>
+            <li><a href = "#news">News</a></li>
+            <li><a href = "#contact">Contact</a></li>
+            <li><a href = "#about">About</a></li>
+
+            <li class ="topnav-right"><a href = "#signin">SignIn</a></li>
+            <li class ="topnav-right"><a href = "#signup">SignUp</a></li>
+
+
+        <!--Google unicodes..click the first one and search trigram--> 
+
+            <li class ="dropdownIcon"><a href="javascript:void(0);"onClick="dropdownMenu()">&#9776;</a></li>
+
+        </ul>
+    </nav>
+    <div class ="container" id ="section-1-gradient">
+        <div class ="row">
+            <div class ="col-6 leftSide-col">
+                <div>
+                    <h1 class="large">Crazy Radness</h1>
+                    <h1 class="large">Made For Developers</h1>
+
+                
+
+                        <div class ="col-6 leftSide-col">
+
+                        </div>
+
+                <form>
+                    <div>
+                        <h2>UserName</h2>
+                        <input class="inputbox" name="username" type="text"
+                        placeholder="UserName">
+
+                        <h2>Password</h2>
+                        <input class="inputbox" name="password" type="text"
+                        placeholder="Password">
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </div>
+   
+    <!---JavaScript for include all the elements on dropdown-->
+
+    <script>
+        function dropdownMenu()
+        {
+            var x = document.getElementById("dropdownClick")
+            if(x.className ==="topnav") {
+                x.className +=" responsive";
+                /* changing topnav to topnav.responsive */document
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>

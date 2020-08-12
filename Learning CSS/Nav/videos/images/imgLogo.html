@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="imgLogo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+
+            <li class="topnav-right"><a href="#signin">SignIn</a></li>
+            <li class="topnav-right"><a href="#signup">SignUp</a></li>
+
+
+            <!--Google unicodes..click the first one and search trigram-->
+
+            <li class="dropdownIcon"><a href="javascript:void(0);" onClick="dropdownMenu()">&#9776;</a></li>
+
+        </ul>
+    </nav>
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftSide-col">
+                    <h1 class="large">Crazy Radness</h1>
+                    <h1 class="large">Made For Developers</h1>
+
+
+
+                    <div class="col-6 leftSide-col">
+
+                    </div>
+
+                    <form>
+                        <div>
+                            <h2>UserName</h2>
+                            <input class="inputbox" name="username" type="text" placeholder="UserName">
+
+                            <h2>Password</h2>
+                            <input class="inputbox" name="password" type="text" placeholder="Password">
+
+                        </div>
+                </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="rightside-col">
+                    <div class="videocontainer">
+                        <iframe width="520" height="310" src="https://www.youtube.com/embed/_MnZUZ68Pls" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!---This is for image logo and footer of our web page-->
+
+
+
+    <header>
+        <h1 class="section-2-header">The Standards of Awesomeness</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="download.png">
+                    </div>
+                    <label>Chat With Me</label>
+                    <p>This is my first building websites using html and css and i am very much intrested on web
+                        development especially in front end</p>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="download.png">
+                    </div>
+                    <label>Learn TO Code</label>
+                    <p>This is my first building websites using html and css and i am very much intrested on web
+                        development especially in front end</p>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="download.png">
+                    </div>
+                    <label>Build An Empire</label>
+                    <p>This is my first building websites using html and css and i am very much intrested on web
+                        development especially in front end</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="LearnMore">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!----This is for last part of paragrah and images on the right side-->
+
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>
+                        Welcome to devslopes website here you can learn how to code and how to create a responsite
+                        website and also for mobile you will learn everything about the front end developer as well as
+                        the web developer
+
+                    </p>
+                </article>
+            </div>
+
+            <div class="col-5">
+                <div class ="slope">
+                    <img src="download.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!---JavaScript for include all the elements on dropdown-->
+
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick")
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                /* changing topnav to topnav.responsive */document
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

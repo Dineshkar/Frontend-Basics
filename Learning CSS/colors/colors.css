@@ -1,0 +1,43 @@
+body {
+    background-image: url(images.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Linear gradient is used to add two or more colors to the starting point to the end poin*/
+.container{
+    background: linear-gradient( #ff3333 ,  #ff6666
+
+    );
+}
+/* we can also use the shadows for our text*/
+h2 {
+    color:blue;
+    text-shadow:1px 1px black;
+}
+
+h3 {
+    color:burlywood;
+    text-shadow: 2px 2px 3px gold;
+}
+
+.borderimg {
+    border:10px solid blue;
+}
+
+ul li {
+    color:red;
+    font-size: 20px;
+}
+
+ul > li {
+    color:yellow;
+}
+
+/*This is grouping Everything */
+
+h3,h4,h5, .class, #id{
+    color:brown;
+    font-size: 30px;
+    line-height: 1rem;
+    font-family: fantasy;
+}
